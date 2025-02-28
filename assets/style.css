@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+}
+
+.centered-div {
+    width: 390px;
+    height: 160vh;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    margin-top: 13px;
+    height: 150px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+section h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+section p {
+    font-size: 9px;
+    margin-left: 20px;
+    margin-top: 8px;
+    line-height: 12px;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time-section {
+    margin-left: 20px;
+    margin-top: 13px;
+    height: 120px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+b {
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation-time-section h2 {
+    font-size: 16px;
+    padding: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time-section ul {
+    margin-left: 12px;
+    color: hsl(30, 10%, 34%);
+    line-height: 22px;
+}
+
+.preparation-time-section ul li {
+    list-style-position: inside;
+}
+
+.preparation-time-section ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-section {
+    margin-left: 15px;
+    margin-top: 13px;
+    padding: 10px;
+}
+
+.ingredients-section h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-section ul {
+    margin-top: 10px;
+}
+
+.ingredients-section ul li {
+    font-size: 10px;
+    line-height: 20px;
+    color: hsl(30, 10%, 34%);
+    list-style-position: inside;
+}
+
+.ingredients-section ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.custom-hr {
+    border-top: 1px solid hsl(30, 10%, 34%);
+    width: 87%;
+    margin: 5px auto;
+}
+
+.instructions-section {
+    margin-left: 15px;
+    margin-top: 13px;
+    padding: 10px;
+}
+
+.instructions-section h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-section ol {
+    margin-top: 10px;
+}
+
+.instructions-section ol li {
+    font-size: 10px;
+    line-height: 17px;
+    color: hsl(30, 10%, 34%);
+    list-style-position: inside;
+}
+
+.instructions {
+    font-size: 1rem;
+}
+
+.instructions ol li span {
+    font-weight: bold;
+}
+
+
+/* Nutrition section */
+
+.nutrition-section {
+    margin-top: 10px;
+}
+
+.nutrition-section h2 {
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.table {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 2px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    line-height: 30px;
+}
+
+th {
+    color: hsl(14, 45%, 36%);
+}
