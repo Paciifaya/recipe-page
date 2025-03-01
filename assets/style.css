@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "outfit";
+    src: url(./fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
 body {
     background-color: hsl(30, 54%, 90%);
+    font-family: "outfit", sans-serif;
 }
 
 .container {
@@ -17,7 +23,7 @@ body {
 
 .centered-div {
     width: 390px;
-    height: 160vh;
+    height: 170vh;
     border-radius: 5px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -59,7 +65,8 @@ section p {
 }
 
 b {
-    color: hsl(24, 5%, 18%);
+    color: hsl(30, 10%, 34%);
+    font-weight: bolder;
 }
 
 .preparation-time-section h2 {
@@ -134,16 +141,14 @@ b {
     list-style-position: inside;
 }
 
-.instructions {
+.instructions-section {
     font-size: 1rem;
 }
 
-.instructions ol li span {
+.instructions-section ol li::marker {
+    color: hsl(14, 45%, 36%);
     font-weight: bold;
 }
-
-
-/* Nutrition section */
 
 .nutrition-section {
     margin-top: 10px;
@@ -168,6 +173,23 @@ td {
     line-height: 30px;
 }
 
+td {
+    color: hsl(30, 10%, 34%);
+}
+
 th {
     color: hsl(14, 45%, 36%);
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        height: 200vh;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .centered-div {
+        height: 200vh;
+    }
+    .preparation-time-section {
+        width: 340px;
+    }
 }
